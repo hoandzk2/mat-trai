@@ -1,0 +1,33 @@
+
+================================================================
+======== txAdmin v6.0.2 atop fxserver 7290 Starting - 21:44:25, 22/5/2025
+================================================================
+[21:45:27][Hoan_Tixi] created admins file
+[21:47:07][Hoan_Tixi] Changing global settings via setup stepper and started Deployer.
+[21:47:12][Hoan_Tixi] Setting recipe.
+[21:48:16][Hoan_Tixi] Running recipe.
+[21:50:51][Hoan_Tixi] Completed and committed server deploy.
+
+================================================================
+======== txAdmin v6.0.2 atop fxserver 7290 Starting - 22:18:41, 22/5/2025
+================================================================
+[22:18:48][Hoan_Tixi] logged in from 127.0.0.1 via password
+[22:26:42][Hoan_Tixi] executed "ensure "qb-multicharacter""
+[22:30:50][Hoan_Tixi] executed "ensure "qb-multicharacter""
+[22:44:28][Hoan_Tixi] executed "ensure "qb-phone""
+[22:45:05][Hoan_Tixi] executed "ensure "qb-phone""
+[22:46:14][Hoan_Tixi] executed "ensure "qb-phone""
+[22:46:45][Hoan_Tixi] executed "ensure "qb-phone""
+[22:48:02][Hoan_Tixi] executed "setgroup 3 admin"
+[22:49:03][Hoan_Tixi] executed "setgroup admin 3"
+[22:51:21][Hoan_Tixi] Sending announcement: cut ra 1
+[22:51:31][Hoan_Tixi] executed "RESTART SERVER"
+[23:00:25][Hoan_Tixi] executed "RESTART SERVER"
+
+================================================================
+======== txAdmin v6.0.2 atop fxserver 7290 Starting - 23:18:59, 22/5/2025
+================================================================
+[23:20:52][Hoan_Tixi] logged in from 127.0.0.1 via password
+[23:26:02][Hoan_Tixi] logged in via in-game ui
+[23:27:36][Hoan_Tixi] logged in from 26.7.5.12 via password
+[23:28:34][Hoan_Tixi] executed "setgourp admin 2"
