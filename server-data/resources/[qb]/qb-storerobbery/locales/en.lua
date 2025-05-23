@@ -1,25 +1,24 @@
 local Translations = {
     error = {
-        minimum_store_robbery_police = "Không đủ cảnh sát (Cần %{MinimumStoreRobberyPolice})",
-        not_driver = "Bạn không phải là người lái xe",
-        demolish_vehicle = "Hiện tại bạn không được phép phá hủy phương tiện",
-        process_canceled = "Quá trình đã bị hủy..",
-        you_broke_the_lock_pick = "Bạn đã làm gãy dụng cụ mở khóa",
+        minimum_store_robbery_police = "Not Enough Police (%{MinimumStoreRobberyPolice} Required)",
+        not_driver = "You Are Not The Driver",
+        demolish_vehicle = "You Are Not Allowed To Demolish Vehicles Now",
+        process_canceled = "Process canceled..",
+        you_broke_the_lock_pick = "You Broke The Lock Pick",
     },
     text = {
-        the_cash_register_is_empty = "Ngăn kéo tiền rỗng",
-        try_combination = "~g~E~w~ - Thử mã kết hợp",
-        safe_opened = "Két sắt đã mở",
-        emptying_the_register = "Đang lấy tiền từ ngăn kéo..",
-        safe_code = "Mã két sắt: "
+        the_cash_register_is_empty = "The Cash Register Is Empty",
+        try_combination = "~g~E~w~ - Try Combination",
+        safe_opened = "Safe Opened",
+        emptying_the_register= "Emptying The Register..",
+        safe_code = "Safe Code: "
     },
     email = {
-        shop_robbery = "10-31 | Cướp Cửa Hàng",
-        someone_is_trying_to_rob_a_store = "Ai đó đang cố gắng cướp một cửa hàng tại %{street} (CAMERA ID: %{cameraId1})",
-        storerobbery_progress = "Cướp cửa hàng đang diễn ra"
+        shop_robbery = "10-31 | Shop Robbery",
+        someone_is_trying_to_rob_a_store = "Someone Is Trying To Rob A Store At %{street} (CAMERA ID: %{cameraId1})",
+        storerobbery_progress = "Storerobbery in progress"
     },
 }
-
 
 Lang = Lang or Locale:new({
     phrases = Translations,

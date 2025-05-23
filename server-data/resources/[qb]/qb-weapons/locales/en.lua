@@ -1,35 +1,34 @@
 local Translations = {
     error = {
-        canceled = 'Đã hủy',
-        max_ammo = 'Đã đạt giới hạn đạn',
-        no_weapon = 'Bạn không có vũ khí.',
-        wrong_ammo = 'Loại đạn không phù hợp.',
-        no_support_attachment = 'Vũ khí này không hỗ trợ phụ kiện này.',
-        no_weapon_in_hand = 'Bạn không cầm vũ khí nào.',
-        weapon_broken = 'Vũ khí này đã hỏng và không thể sử dụng.',
-        no_damage_on_weapon = 'Vũ khí này không bị hư hại.',
-        weapon_broken_need_repair = 'Vũ khí của bạn đã hỏng, cần sửa chữa trước khi sử dụng lại.',
-        attachment_already_on_weapon = 'Bạn đã gắn %{value} lên vũ khí rồi.'
+        canceled = 'Canceled',
+        max_ammo = 'Max Ammo Capacity',
+        no_weapon = 'You have no weapon.',
+        wrong_ammo = 'Your ammo type is wrong.',
+        no_support_attachment = 'This weapon does not support this attachment.',
+        no_weapon_in_hand = 'You dont have a weapon in your hand.',
+        weapon_broken = 'This weapon is broken and can not be used.',
+        no_damage_on_weapon = 'This weapon is not damaged..',
+        weapon_broken_need_repair = 'Your weapon is broken, you need to repair it before you can use it again.',
+        attachment_already_on_weapon = 'You already have a %{value} on your weapon.'
     },
     success = {
-        reloaded = 'Đã nạp đạn'
+        reloaded = 'Reloaded'
     },
     info = {
-        loading_bullets = 'Đang nạp đạn',
-        repairshop_not_usable = 'Hiện tại xưởng sửa chữa ~r~KHÔNG~w~ sử dụng được.',
-        weapon_will_repair = 'Vũ khí của bạn sẽ được sửa.',
-        take_weapon_back = '[E] - Nhận lại vũ khí',
-        repair_weapon_price = '[E] Sửa vũ khí, ~g~$%{value}~w~',
-        removed_attachment = 'Bạn đã gỡ %{value} khỏi vũ khí!',
-        hp_of_weapon = 'Độ bền của vũ khí'
+        loading_bullets = 'Loading Bullets',
+        repairshop_not_usable = 'The repairshop in this moment is ~r~NOT~w~ usable.',
+        weapon_will_repair = 'Your weapon will be repaired.',
+        take_weapon_back = '[E] - Take Weapon Back',
+        repair_weapon_price = '[E] Repair Weapon, ~g~$%{value}~w~',
+        removed_attachment = 'You removed %{value} from your weapon!',
+        hp_of_weapon = 'Durability of your weapon'
     },
     mail = {
         sender = 'Tyrone',
-        subject = 'Sửa chữa',
-        message = 'Vũ khí %{value} của bạn đã được sửa, bạn có thể đến lấy tại địa điểm đã chỉ định. <br><br> Thân ái chào tạm biệt, madafaka'
+        subject = 'Repair',
+        message = 'Your %{value} is repaired u can pick it up at the location. <br><br> Peace out madafaka'
     },
 }
-
 
 Lang = Locale:new({
     phrases = Translations,

@@ -10,7 +10,7 @@ QBConfig.Money.MoneyTypes = { cash = 500, bank = 5000, crypto = 0 } -- type = st
 QBConfig.Money.DontAllowMinus = { 'cash', 'crypto' }                -- Money that is not allowed going in minus
 QBConfig.Money.MinusLimit = -5000                                    -- The maximum amount you can be negative 
 QBConfig.Money.PayCheckTimeOut = 10                                 -- The time in minutes that it will give the paycheck
-QBConfig.Money.PayCheckSociety = false                              -- If true paycheck will come from the society account that the player is employed at, requires qb-management
+QBConfig.Money.PayCheckSociety = true                              -- Nếu tiền lương thực sự sẽ đến từ tài khoản xã hội mà người chơi được tuyển dụng, yêu cầu quản lý QB
 
 QBConfig.Player = {}
 QBConfig.Player.HungerRate = 4.2 -- Rate at which hunger goes down.
@@ -35,13 +35,13 @@ QBConfig.Player.PlayerDefaults = {
         lastname = 'Lastname',
         birthdate = '00-00-0000',
         gender = 0,
-        nationality = 'USA',
+        nationality = 'VN',
         phone = function() return QBCore.Functions.CreatePhoneNumber() end,
         account = function() return QBCore.Functions.CreateAccountNumber() end
     },
     job = {
         name = 'unemployed',
-        label = 'Civilian',
+        label = 'Thường dân',
         payment = 10,
         type = 'none',
         onduty = false,
@@ -53,7 +53,7 @@ QBConfig.Player.PlayerDefaults = {
     },
     gang = {
         name = 'none',
-        label = 'No Gang Affiliation',
+        label = 'Chưa có băng đảng',
         isboss = false,
         grade = {
             name = 'none',
@@ -75,7 +75,7 @@ QBConfig.Player.PlayerDefaults = {
         phone = {},
         rep = {},
         currentapartment = nil,
-        callsign = 'NO CALLSIGN',
+        callsign = 'Không có thông tin',
         bloodtype = function() return QBConfig.Player.Bloodtypes[math.random(1, #QBConfig.Player.Bloodtypes)] end,
         fingerprint = function() return QBCore.Player.CreateFingerId() end,
         walletid = function() return QBCore.Player.CreateWalletId() end,
@@ -106,7 +106,7 @@ QBConfig.Player.PlayerDefaults = {
 
 QBConfig.Server = {}                                    -- General server config
 QBConfig.Server.Closed = false                          -- Set server closed (no one can join except people with ace permission 'qbadmin.join')
-QBConfig.Server.ClosedReason = 'Server Closed'          -- Reason message to display when people can't join the server
+QBConfig.Server.ClosedReason = 'Máy chủ đóng cửa'          -- Reason message to display when people can't join the server
 QBConfig.Server.Uptime = 0                              -- Time the server has been up.
 QBConfig.Server.Whitelist = false                       -- Enable or disable whitelist on the server
 QBConfig.Server.WhitelistPermission = 'admin'           -- Permission that's able to enter the server when the whitelist is on

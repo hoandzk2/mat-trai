@@ -23,7 +23,7 @@ local function CraftItem(craftedItem, requiredItems, amountToCraft, xpEarned, xp
             if Config.EnableSkillCheck then
                 local success = exports['qb-minigames']:Skillbar('easy', '12345') -- difficulty and words to enter 
                 if success then
-                    QBCore.Functions.Progressbar('crafting_item', 'Crafting ' .. QBCore.Shared.Items[craftedItem].label, (math.random(2000, 5000) * amountToCraft), false, true, {
+                    QBCore.Functions.Progressbar('crafting_item', 'Đang chế tạo.. ' .. QBCore.Shared.Items[craftedItem].label, (math.random(2000, 5000) * amountToCraft), false, true, {
                         disableMovement = true,
                         disableCarMovement = true,
                         disableMouse = false,
@@ -40,10 +40,10 @@ local function CraftItem(craftedItem, requiredItems, amountToCraft, xpEarned, xp
                     local randomItem = requiredItems[math.random(#requiredItems)]
                     local randomAmount = math.random(1, randomItem.amount)
                     TriggerServerEvent('qb-crafting:server:removeMaterials', randomItem.item, randomAmount)
-                    QBCore.Functions.Notify('Crafting failed, some materials have been lost!', 'error')
+                    QBCore.Functions.Notify('Thủ công thất bại, một số vật liệu đã bị mất!', 'error')
                 end
             else
-                QBCore.Functions.Progressbar('crafting_item', 'Crafting ' .. QBCore.Shared.Items[craftedItem].label, (math.random(2000, 5000) * amountToCraft), false, true, {
+                QBCore.Functions.Progressbar('crafting_item', 'Đang chế tạo.. ' .. QBCore.Shared.Items[craftedItem].label, (math.random(2000, 5000) * amountToCraft), false, true, {
                     disableMovement = true,
                     disableCarMovement = true,
                     disableMouse = false,
@@ -65,12 +65,12 @@ end
 local function CraftAmount(craftedItem, requiredItems, xpGain, xpType)
     local dialog = exports['qb-input']:ShowInput({
         header = string.format(Lang:t('menus.entercraftAmount')),
-        submitText = 'Confirm',
+        submitText = 'Xác nhận',
         inputs = {
             {
                 type = 'number',
                 name = 'amount',
-                label = 'Amount',
+                label = 'Số lượng',
                 text = 'Enter Amount',
                 isRequired = true
             },

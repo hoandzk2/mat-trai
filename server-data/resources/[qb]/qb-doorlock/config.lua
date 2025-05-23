@@ -1,9 +1,9 @@
 Config = {}
 
 Config.CommandPermission = 'god' -- permission level for creating new doors
-Config.AdminAccess = false -- Enable admins to unlock any door
+Config.AdminAccess = true -- Enable admins to unlock any door
 Config.AdminPermission = 'god' -- The permission needed to get AdminAccess if it is enabled
-Config.Warnings = false -- if true it will show warnings in the console when certain requirements aren't met
+Config.Warnings = true -- Nếu đúng, nó sẽ hiển thị các cảnh báo trong bảng điều khiển khi một số yêu cầu nhất định không được đáp ứng
 Config.FallbackDistance = 3.0 -- Distance to fall back on when it is not set
 Config.EnableSounds = true -- Enable sounds when unlocking/locking doors (doors triggered by scripts can have the sound manually disabled)
 Config.EnableAnimation = true -- Enable the animation when unlocking/locking doors (doors triggered by scripts can have the animation manually disabled)

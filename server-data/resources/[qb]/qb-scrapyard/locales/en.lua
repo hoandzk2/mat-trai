@@ -1,26 +1,25 @@
 local Translations = {
     error = {
-        smash_own = "Bạn không thể phá hủy phương tiện thuộc quyền sở hữu của mình.",
-        cannot_scrap = "Phương tiện này không thể bị tháo dỡ.",
-        not_driver = "Bạn không phải là người lái",
-        demolish_vehicle = "Bạn không được phép tháo dỡ phương tiện lúc này",
-        canceled = "Đã hủy",
+        smash_own = "You can't smash a vehicle that owns it.",
+        cannot_scrap = "This Vehicle Cannot Be Scrapped.",
+        not_driver = "You Are Not The Driver",
+        demolish_vehicle = "You Are Not Allowed To Demolish Vehicles Now",
+        canceled = "Canceled",
     },
     text = {
-        scrapyard = 'Bãi Phế Liệu',
-        disassemble_vehicle = '[E] - Tháo Dỡ Phương Tiện',
-        disassemble_vehicle_target = 'Tháo Dỡ Phương Tiện',
-        email_list = "[E] - Gửi Danh Sách Xe Qua Email",
-        email_list_target = "Gửi Danh Sách Xe Qua Email",
-        demolish_vehicle = "Tháo Dỡ Phương Tiện",
+        scrapyard = 'Scrap Yard',
+        disassemble_vehicle = '[E] - Disassemble Vehicle',
+        disassemble_vehicle_target = 'Disassemble Vehicle',
+        email_list = "[E] - E-mail Vehicle List",
+        email_list_target = "E-mail Vehicle List",
+        demolish_vehicle = "Demolish Vehicle",
     },
     email = {
-        sender = "Xưởng Phế Liệu Turner",
-        subject = "Danh Sách Phương Tiện",
-        message = "Bạn chỉ được phép tháo dỡ một số lượng phương tiện nhất định.<br />Bạn có thể giữ mọi thứ mình tháo dỡ miễn là đừng làm phiền tôi.<br /><br /><strong>Danh sách phương tiện:</strong><br />",
+        sender = "Turner’s Auto Wrecking",
+        subject = "Vehicle List",
+        message = "You Can Only Demolish A Number Of Vehicles.<br />You Can Keep Everything You Demolish For Yourself As Long As You Dont Bother Me.<br /><br /><strong>Vehicle List:</strong><br />",
     },
 }
-
 
 Lang = Lang or Locale:new({
     phrases = Translations,

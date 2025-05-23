@@ -2,7 +2,7 @@ fx_version 'cerulean'
 game 'gta5'
 lua54 'yes'
 author 'Kakarot'
-description 'Allows players to dive and search for materials underwater to sell'
+description 'Cho phép người chơi lặn và tìm kiếm vật liệu dưới nước để bán'
 version '1.2.1'
 
 shared_script {

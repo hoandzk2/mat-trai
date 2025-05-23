@@ -155,7 +155,7 @@ if Config.useTarget then
                 options = {
                     {
                         icon = 'fas fa-university',
-                        label = 'Open Bank',
+                        label = 'Mở Ngân Hàng',
                         action = function()
                             OpenBank()
                         end,
@@ -173,7 +173,7 @@ if Config.useTarget then
                 options = {
                     {
                         icon = 'fas fa-university',
-                        label = 'Open ATM',
+                        label = 'Mở ATM',
                         item = 'bank_card',
                         action = function()
                             OpenATM()
