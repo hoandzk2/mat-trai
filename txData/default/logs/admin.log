@@ -84,3 +84,16 @@
 [14:34:36][Hoan_Tixi] executed "RESTART SERVER"
 [14:35:33][Hoan_Tixi] logged in via in-game ui
 [14:40:17][Hoan_Tixi] executed "STOP SERVER"
+
+================================================================
+======== txAdmin v6.0.2 atop fxserver 7290 Starting - 14:45:19, 23/5/2025
+================================================================
+
+================================================================
+======== txAdmin v6.0.2 atop fxserver 7290 Starting - 15:05:46, 23/5/2025
+================================================================
+[15:05:53][Hoan_Tixi] logged in from 127.0.0.1 via password
+[15:08:42][Hoan_Tixi] logged in from 26.7.5.12 via password
+[15:15:35][Hoan_Tixi] logged in via in-game ui
+[15:20:05][Hoan_Tixi] executed "ensure "qb-phone""
+[15:21:19][Hoan_Tixi] executed "ensure "qb-phone""

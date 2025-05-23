@@ -1830,3 +1830,493 @@
 > txaEvent "serverShuttingDown" "{＂delay＂:5000,＂author＂:＂Hoan_Tixi＂,＂message＂:＂Server shutting down (requested by Hoan_Tixi).＂}"
 [      script:monitor] [txAdmin] Server shutdown imminent. Kicking all players.
 [      script:qb-core] [qb-core:LOG] hoan2108 PLAYER SAVED!
+
+================================================================
+======== FXServer Starting - 14:45:29, 23/5/2025                
+================================================================
+[38;5;83m[           resources] Scanning resources.
+[           resources] Found 101 resources.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for sessionmanager
+[           resources] Started resource sessionmanager
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdmin] Resource v6.0.2 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for mapmanager
+[           resources] Started resource mapmanager
+[    c-scripting-core] Creating script environments for chat
+[           resources] Started resource chat
+[           resources] Started resource spawnmanager
+[   script:mapmanager] Started gametype Freeroam
+[           resources] Started resource basic-gamemode
+[    c-scripting-core] Creating script environments for hardcap
+[           resources] Started resource hardcap
+[    c-scripting-core] Creating script environments for baseevents
+[           resources] Started resource baseevents
+[    c-scripting-core] [0mCreating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for qb-core
+[      script:qb-core] Warning: Missing phrase for key: "command.dvall.help"
+[      script:qb-core] Warning: Missing phrase for key: "command.dvp.help"
+[      script:qb-core] Warning: Missing phrase for key: "command.dvo.help"
+[           resources] Started resource qb-core
+[           resources] Started resource menuv
+[    c-scripting-core] [0mCreating script environments for qb-adminmenu
+[           resources] Started resource qb-adminmenu
+[    c-scripting-core] Creating script environments for qb-ambulancejob
+[script:qb-ambulancej] Warning: Missing phrase for key: "info.paleto_hospital"
+[           resources] Started resource qb-ambulancejob
+[           resources] Started resource qb-interior
+[    c-scripting-core] [97mCreating script environments for qb-clothing
+[           resources] Started resource qb-clothing
+[    c-scripting-core] Creating script environments for qb-weathersync
+[           resources] Started resource qb-weathersync
+[    c-scripting-core] Creating script environments for qb-apartments
+[           resources] Started resource qb-apartments
+[    c-scripting-core] Creating script environments for qb-banking
+[           resources] Started resource qb-banking
+[    c-scripting-core] Creating script environments for PolyZone
+[           resources] Started resource PolyZone
+[    c-scripting-core] Creating script environments for qb-bankrobbery
+[           resources] [97mStarted resource qb-bankrobbery
+[    c-scripting-core] Creating script environments for qb-busjob
+[           resources] Started resource qb-busjob
+[    c-scripting-core] Creating script environments for qb-cityhall
+[           resources] Started resource qb-cityhall
+[    c-scripting-core] Creating script environments for qb-crafting
+[           resources] Started resource qb-crafting
+[           resources] Started resource qb-minigames
+[    c-scripting-core] Creating script environments for qb-crypto
+[           resources] Started resource qb-crypto
+[    c-scripting-core] Creating script environments for qb-diving
+[           resources] Started resource qb-diving
+[    c-scripting-core] Creating script environments for qb-doorlock
+[           resources] Started resource qb-doorlock
+[    c-scripting-core] Creating script environments for qb-drugs
+[           resources] Started resource qb-drugs
+[    c-scripting-core] Creating script environments for qb-garages
+[           resources] [0mStarted resource qb-garages
+[    c-scripting-core] Creating script environments for qb-garbagejob
+[           resources] Started resource qb-garbagejob
+[    c-scripting-core] Creating script environments for qb-hotdogjob
+[           resources] Started resource qb-hotdogjob
+[    c-scripting-core] Creating script environments for qb-houserobbery
+[           resources] Started resource qb-houserobbery
+[    c-scripting-core] Creating script environments for qb-houses
+[           resources] Started resource qb-houses
+[    c-scripting-core] Creating script environments for qb-hud
+[           resources] Started resource qb-hud
+[           resources] Started resource qb-input
+[    c-scripting-core] Creating script environments for qb-weapons
+[           resources] Started resource qb-weapons
+[    c-scripting-core] Creating script environments for qb-inventory
+[           resources] Started resource qb-inventory
+[    c-scripting-core] Creating script environments for qb-jewelery
+[           resources] Started resource qb-jewelery
+[    c-scripting-core] Creating script environments for qb-lapraces
+[           resources] Started resource qb-lapraces
+[           resources] Started resource qb-loading
+[    c-scripting-core] Creating script environments for qb-management
+[           resources] Started resource qb-management
+[    c-scripting-core] Creating script environments for qb-mechanicjob
+[           resources] Started resource qb-mechanicjob
+[           resources] Started resource qb-menu
+[    c-scripting-core] Creating script environments for qb-spawn
+[           resources] Started resource qb-spawn
+[    c-scripting-core] Creating script environments for qb-multicharacter
+[           resources] Started resource qb-multicharacter
+[    c-scripting-core] Creating script environments for qb-newsjob
+[           resources] Started resource qb-newsjob
+[    c-scripting-core] Creating script environments for qb-pawnshop
+[           resources] Started resource qb-pawnshop
+[    c-scripting-core] Creating script environments for qb-phone
+[           resources] Started resource qb-phone
+[    c-scripting-core] Creating script environments for qb-policejob
+[           resources] Started resource qb-policejob
+[    c-scripting-core] Creating script environments for qb-prison
+[38;5;83m[           resources] Started resource qb-prison
+[    c-scripting-core] Creating script environments for qb-radialmenu
+[           resources] Started resource qb-radialmenu
+[    c-scripting-core] Creating script environments for qb-recyclejob
+[           resources] Started resource qb-recyclejob
+[    c-scripting-core] [97mCreating script environments for qb-scoreboard
+[           resources] Started resource qb-scoreboard
+[    c-scripting-core] Creating script environments for qb-scrapyard
+[           resources] [0mStarted resource qb-scrapyard
+[    c-scripting-core] Creating script environments for qb-shops
+[           resources] Started resource qb-shops
+[    c-scripting-core] Creating script environments for qb-smallresources
+[           resources] Started resource qb-smallresources
+[    c-scripting-core] Creating script environments for qb-storerobbery
+[           resources] Started resource qb-storerobbery
+[    c-scripting-core] [0mCreating script environments for qb-streetraces
+[           resources] [0mStarted resource qb-streetraces
+[           resources] Started resource qb-target
+[    c-scripting-core] Creating script environments for qb-taxijob
+[           resources] Started resource qb-taxijob
+[    c-scripting-core] Creating script environments for qb-towjob
+[           resources] Started resource qb-towjob
+[    c-scripting-core] Creating script environments for qb-truckrobbery
+[           resources] Started resource qb-truckrobbery
+[    c-scripting-core] Creating script environments for qb-vehiclekeys
+[           resources] Started resource qb-vehiclekeys
+[    c-scripting-core] Creating script environments for qb-vehiclesales
+[           resources] Started resource qb-vehiclesales
+[    c-scripting-core] Creating script environments for qb-vehicleshop
+[           resources] Started resource qb-vehicleshop
+[    c-scripting-core] Creating script environments for qb-vineyard
+[           resources] Started resource qb-vineyard
+[    c-scripting-core] Creating script environments for qb-weed
+[           resources] Started resource qb-weed
+[    c-scripting-core] Creating script environments for LegacyFuel
+[           resources] Started resource LegacyFuel
+[           resources] Started resource bob74_ipl
+[    c-scripting-core] Creating script environments for connectqueue
+[ script:connectqueue] QUEUE:  [connectqueue] Disabling hardcap 
+[           resources] Stopping resource hardcap
+[           resources] Started resource connectqueue
+[38;5;161m[    c-scripting-core] Creating script environments for interact-sound
+[           resources] Started resource interact-sound
+[           resources] Started resource progressbar
+[           resources] Started resource safecracker
+[    c-scripting-core] Creating script environments for yarn
+[           resources] Started resource yarn
+[    c-scripting-core] [0mCreating script environments for webpack
+[           resources] Started resource webpack
+[    c-scripting-core] Creating script environments for screenshot-basic
+[           resources] Started resource screenshot-basic
+[    c-scripting-core] Creating script environments for pma-voice
+[           resources] Started resource pma-voice
+[    c-scripting-core] Creating script environments for qb-radio
+[           resources] [0mStarted resource qb-radio
+[           resources] Started resource dealer_map
+[           resources] Started resource hospital_map
+[           resources] Started resource prison_canteen
+[resources:prison_mai] Asset prison_main/desertos_prison.ytd uses 30.5 MiB of physical memory.
+[           resources] Started resource prison_main (1 warning)
+[           resources] Started resource prison_meeting
+[resources:lbvn:strea] Asset lbvn/lbvn.ytd uses 38.0 MiB of physical memory.
+[           resources] Started resource lbvn (1 warning)
+[resources:nissan:str] Asset nissan/gtrnismo17.ytd uses 24.2 MiB of physical memory.
+[           resources] Started resource nissan (1 warning)
+[resources:rev_autent] Asset rev_autentica24/rev_autentica24.ytd uses 50.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[           resources] Started resource rev_autentica24 (1 warning)
+[   script:mapmanager] Started map fivem-map-hipster
+[           resources] Started resource fivem-map-hipster
+[      script:oxmysql] [10.4.32-MariaDB] Database server connection established!
+[ script:qb-inventory] [0m1 inventories successfully loaded
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://hoan-tixi-elgd5a.users.cfx.re/
+[ citizen-server-main] -> Quitting: SIGHUP received
+
+================================================================
+======== FXServer Starting - 15:05:56, 23/5/2025                
+================================================================
+[           resources] Scanning resources.
+[           resources] Found 101 resources.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for sessionmanager
+[           resources] Started resource sessionmanager
+[    c-scripting-core] [0mCreating script environments for monitor
+[      script:monitor] [txAdmin] Resource v6.0.2 threads and commands set up. All Ready.
+[           resources] Started resource monitor
+[    c-scripting-core] Creating script environments for mapmanager
+[           resources] Started resource mapmanager
+[    c-scripting-core] Creating script environments for chat
+[           resources] Started resource chat
+[           resources] Started resource spawnmanager
+[   script:mapmanager] Started gametype Freeroam
+[           resources] Started resource basic-gamemode
+[    c-scripting-core] [97mCreating script environments for hardcap
+[           resources] Started resource hardcap
+[    c-scripting-core] [97mCreating script environments for baseevents
+[           resources] Started resource baseevents
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for qb-core
+[      script:qb-core] Warning: Missing phrase for key: "command.dvall.help"
+[      script:qb-core] Warning: Missing phrase for key: "command.dvp.help"
+[      script:qb-core] Warning: Missing phrase for key: "command.dvo.help"
+[           resources] Started resource qb-core
+[           resources] [97mStarted resource menuv
+[    c-scripting-core] Creating script environments for qb-adminmenu
+[           resources] Started resource qb-adminmenu
+[    c-scripting-core] Creating script environments for qb-ambulancejob
+[script:qb-ambulancej] Warning: Missing phrase for key: "info.paleto_hospital"
+[           resources] Started resource qb-ambulancejob
+[           resources] Started resource qb-interior
+[    c-scripting-core] Creating script environments for qb-clothing
+[           resources] Started resource qb-clothing
+[    c-scripting-core] Creating script environments for qb-weathersync
+[           resources] Started resource qb-weathersync
+[    c-scripting-core] [97mCreating script environments for qb-apartments
+[           resources] Started resource qb-apartments
+[    c-scripting-core] Creating script environments for qb-banking
+[           resources] Started resource qb-banking
+[    c-scripting-core] Creating script environments for PolyZone
+[           resources] Started resource PolyZone
+[    c-scripting-core] Creating script environments for qb-bankrobbery
+[           resources] Started resource qb-bankrobbery
+[    c-scripting-core] [0mCreating script environments for qb-busjob
+[           resources] Started resource qb-busjob
+[    c-scripting-core] Creating script environments for qb-cityhall
+[           resources] Started resource qb-cityhall
+[    c-scripting-core] Creating script environments for qb-crafting
+[           resources] Started resource qb-crafting
+[           resources] Started resource qb-minigames
+[    c-scripting-core] Creating script environments for qb-crypto
+[           resources] Started resource qb-crypto
+[    c-scripting-core] [97mCreating script environments for qb-diving
+[           resources] Started resource qb-diving
+[    c-scripting-core] Creating script environments for qb-doorlock
+[           resources] Started resource qb-doorlock
+[    c-scripting-core] Creating script environments for qb-drugs
+[           resources] Started resource qb-drugs
+[    c-scripting-core] Creating script environments for qb-garages
+[           resources] Started resource qb-garages
+[    c-scripting-core] Creating script environments for qb-garbagejob
+[           resources] Started resource qb-garbagejob
+[    c-scripting-core] Creating script environments for qb-hotdogjob
+[           resources] Started resource qb-hotdogjob
+[    c-scripting-core] [0mCreating script environments for qb-houserobbery
+[           resources] Started resource qb-houserobbery
+[    c-scripting-core] Creating script environments for qb-houses
+[           resources] Started resource qb-houses
+[    c-scripting-core] Creating script environments for qb-hud
+[           resources] Started resource qb-hud
+[           resources] Started resource qb-input
+[    c-scripting-core] Creating script environments for qb-weapons
+[           resources] Started resource qb-weapons
+[    c-scripting-core] Creating script environments for qb-inventory
+[           resources] Started resource qb-inventory
+[    c-scripting-core] [0mCreating script environments for qb-jewelery
+[           resources] [97mStarted resource qb-jewelery
+[    c-scripting-core] Creating script environments for qb-lapraces
+[           resources] Started resource qb-lapraces
+[           resources] Started resource qb-loading
+[38;5;161m[    c-scripting-core] Creating script environments for qb-management
+[           resources] Started resource qb-management
+[    c-scripting-core] Creating script environments for qb-mechanicjob
+[           resources] Started resource qb-mechanicjob
+[           resources] Started resource qb-menu
+[    c-scripting-core] Creating script environments for qb-spawn
+[           resources] Started resource qb-spawn
+[    c-scripting-core] Creating script environments for qb-multicharacter
+[           resources] Started resource qb-multicharacter
+[    c-scripting-core] Creating script environments for qb-newsjob
+[           resources] Started resource qb-newsjob
+[    c-scripting-core] Creating script environments for qb-pawnshop
+[           resources] Started resource qb-pawnshop
+[    c-scripting-core] Creating script environments for qb-phone
+[           resources] Started resource qb-phone
+[    c-scripting-core] Creating script environments for qb-policejob
+[           resources] [97mStarted resource qb-policejob
+[    c-scripting-core] [97mCreating script environments for qb-prison
+[           resources] Started resource qb-prison
+[38;5;161m[    c-scripting-core] Creating script environments for qb-radialmenu
+[           resources] Started resource qb-radialmenu
+[    c-scripting-core] [97mCreating script environments for qb-recyclejob
+[           resources] Started resource qb-recyclejob
+[    c-scripting-core] [97mCreating script environments for qb-scoreboard
+[           resources] Started resource qb-scoreboard
+[    c-scripting-core] Creating script environments for qb-scrapyard
+[           resources] Started resource qb-scrapyard
+[    c-scripting-core] Creating script environments for qb-shops
+[           resources] Started resource qb-shops
+[    c-scripting-core] Creating script environments for qb-smallresources
+[           resources] Started resource qb-smallresources
+[    c-scripting-core] Creating script environments for qb-storerobbery
+[           resources] Started resource qb-storerobbery
+[    c-scripting-core] [0mCreating script environments for qb-streetraces
+[           resources] Started resource qb-streetraces
+[           resources] Started resource qb-target
+[    c-scripting-core] [0mCreating script environments for qb-taxijob
+[           resources] Started resource qb-taxijob
+[    c-scripting-core] Creating script environments for qb-towjob
+[           resources] Started resource qb-towjob
+[    c-scripting-core] Creating script environments for qb-truckrobbery
+[           resources] Started resource qb-truckrobbery
+[    c-scripting-core] Creating script environments for qb-vehiclekeys
+[           resources] Started resource qb-vehiclekeys
+[    c-scripting-core] Creating script environments for qb-vehiclesales
+[           resources] Started resource qb-vehiclesales
+[    c-scripting-core] Creating script environments for qb-vehicleshop
+[           resources] Started resource qb-vehicleshop
+[    c-scripting-core] Creating script environments for qb-vineyard
+[           resources] Started resource qb-vineyard
+[    c-scripting-core] Creating script environments for qb-weed
+[           resources] Started resource qb-weed
+[    c-scripting-core] Creating script environments for LegacyFuel
+[           resources] Started resource LegacyFuel
+[           resources] Started resource bob74_ipl
+[    c-scripting-core] Creating script environments for connectqueue
+[ script:connectqueue] QUEUE:  [connectqueue] Disabling hardcap 
+[           resources] Stopping resource hardcap
+[           resources] Started resource connectqueue
+[    c-scripting-core] Creating script environments for interact-sound
+[           resources] Started resource interact-sound
+[           resources] Started resource progressbar
+[           resources] Started resource safecracker
+[    c-scripting-core] Creating script environments for yarn
+[           resources] Started resource yarn
+[    c-scripting-core] Creating script environments for webpack
+[           resources] Started resource webpack
+[    c-scripting-core] Creating script environments for screenshot-basic
+[           resources] Started resource screenshot-basic
+[    c-scripting-core] Creating script environments for pma-voice
+[           resources] Started resource pma-voice
+[    c-scripting-core] Creating script environments for qb-radio
+[           resources] Started resource qb-radio
+[           resources] Started resource dealer_map
+[           resources] Started resource hospital_map
+[           resources] Started resource prison_canteen
+[resources:prison_mai] Asset prison_main/desertos_prison.ytd uses 30.5 MiB of physical memory.
+[           resources] Started resource prison_main (1 warning)
+[           resources] Started resource prison_meeting
+[resources:lbvn:strea] Asset lbvn/lbvn.ytd uses 38.0 MiB of physical memory.
+[           resources] Started resource lbvn (1 warning)
+[resources:nissan:str] Asset nissan/gtrnismo17.ytd uses 24.2 MiB of physical memory.
+[           resources] Started resource nissan (1 warning)
+[resources:rev_autent] [93mAsset rev_autentica24/rev_autentica24.ytd uses 50.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (such as models not loading/rendering).
+[           resources] Started resource rev_autentica24 (1 warning)
+[   script:mapmanager] Started map fivem-map-hipster
+[           resources] Started resource fivem-map-hipster
+[      script:oxmysql] [10.4.32-MariaDB] Database server connection established!
+[ script:qb-inventory] 1 inventories successfully loaded
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://hoan-tixi-elgd5a.users.cfx.re/
+[ citizen-server-impl] server thread hitch warning: timer interval of 159 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 155 milliseconds
+[38;5;73m[ citizen-server-impl] server thread hitch warning: timer interval of 176 milliseconds
+[ script:connectqueue] QUEUE: hoan2108[steam:11000013ff93d13] was placed 1/1 in queue
+[38;5;173m[ script:connectqueue] QUEUE: hoan2108[steam:11000013ff93d13] is loading into the server
+[      script:qb-core] [qb-core:LOG] hoan2108 PLAYER SAVED!
+[script:qb-multichara] [qb-core] hoan2108 (Citizen ID: VYZ62067) has successfully loaded!
+[      script:qb-core] [qb-core:LOG] hoan2108 PLAYER SAVED!
+> txaReportResources
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.[97m
+> ensure "qb-phone"
+[           resources] Stopping resource qb-phone
+[    c-scripting-core] Creating script environments for qb-phone
+[           resources] Started resource qb-phone
+(node:16848) UnhandledPromiseRejectionWarning: Error: connect ECONNREFUSED 127.0.0.1:3306
+    at __node_internal_captureLargerStackTrace (node:internal/errors:464:5)
+    at __node_internal_exceptionWithHostPort (node:internal/errors:642:12)
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1146:16)
+(Use `FXServer --trace-warnings ...` to show where the warning was created)
+(node:16848) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+> txaReportResources
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+(node:16848) UnhandledPromiseRejectionWarning: Error: connect ECONNREFUSED 127.0.0.1:3306
+    at __node_internal_captureLargerStackTrace (node:internal/errors:464:5)
+    at __node_internal_exceptionWithHostPort (node:internal/errors:642:12)
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1146:16)
+(node:16848) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+(node:16848) UnhandledPromiseRejectionWarning: Error: connect ECONNREFUSED 127.0.0.1:3306
+    at __node_internal_captureLargerStackTrace (node:internal/errors:464:5)
+    at __node_internal_exceptionWithHostPort (node:internal/errors:642:12)
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1146:16)
+(node:16848) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 3)
+(node:16848) UnhandledPromiseRejectionWarning: Error: connect ECONNREFUSED 127.0.0.1:3306
+    at __node_internal_captureLargerStackTrace (node:internal/errors:464:5)
+    at __node_internal_exceptionWithHostPort (node:internal/errors:642:12)
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1146:16)
+(node:16848) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 4)
+(node:16848) UnhandledPromiseRejectionWarning: Error: connect ECONNREFUSED 127.0.0.1:3306
+    at __node_internal_captureLargerStackTrace (node:internal/errors:464:5)
+    at __node_internal_exceptionWithHostPort (node:internal/errors:642:12)
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1146:16)
+(node:16848) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 5)
+(node:16848) UnhandledPromiseRejectionWarning: Error: connect ECONNREFUSED 127.0.0.1:3306
+    at __node_internal_captureLargerStackTrace (node:internal/errors:464:5)
+    at __node_internal_exceptionWithHostPort (node:internal/errors:642:12)
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1146:16)
+(node:16848) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 6)
+(node:16848) UnhandledPromiseRejectionWarning: Error: connect ECONNREFUSED 127.0.0.1:3306
+    at __node_internal_captureLargerStackTrace (node:internal/errors:464:5)
+    at __node_internal_exceptionWithHostPort (node:internal/errors:642:12)
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1146:16)
+(node:16848) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 7)
+[      script:qb-core] [qb-core:LOG] hoan2108 PLAYER SAVED!
+(node:16848) UnhandledPromiseRejectionWarning: Error: connect ECONNREFUSED 127.0.0.1:3306
+    at __node_internal_captureLargerStackTrace (node:internal/errors:464:5)
+    at __node_internal_exceptionWithHostPort (node:internal/errors:642:12)
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1146:16)
+(node:16848) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 8)
+(node:16848) UnhandledPromiseRejectionWarning: Error: connect ECONNREFUSED 127.0.0.1:3306
+    at __node_internal_captureLargerStackTrace (node:internal/errors:464:5)
+    at __node_internal_exceptionWithHostPort (node:internal/errors:642:12)
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1146:16)
+(node:16848) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 9)
+(node:16848) UnhandledPromiseRejectionWarning: Error: connect ECONNREFUSED 127.0.0.1:3306
+    at __node_internal_captureLargerStackTrace (node:internal/errors:464:5)
+    at __node_internal_exceptionWithHostPort (node:internal/errors:642:12)
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1146:16)
+(node:16848) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 10)
+> ensure "qb-phone"
+[           resources] Stopping resource qb-phone
+[    c-scripting-core] Creating script environments for qb-phone
+[           resources] Started resource qb-phone
+(node:16848) UnhandledPromiseRejectionWarning: Error: connect ECONNREFUSED 127.0.0.1:3306
+    at __node_internal_captureLargerStackTrace (node:internal/errors:464:5)
+    at __node_internal_exceptionWithHostPort (node:internal/errors:642:12)
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1146:16)
+(node:16848) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 11)
+> txaReportResources
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+(node:16848) UnhandledPromiseRejectionWarning: Error: connect ECONNREFUSED 127.0.0.1:3306
+    at __node_internal_captureLargerStackTrace (node:internal/errors:464:5)
+    at __node_internal_exceptionWithHostPort (node:internal/errors:642:12)
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1146:16)
+(node:16848) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 12)
+(node:16848) UnhandledPromiseRejectionWarning: Error: connect ECONNREFUSED 127.0.0.1:3306
+    at __node_internal_captureLargerStackTrace (node:internal/errors:464:5)
+    at __node_internal_exceptionWithHostPort (node:internal/errors:642:12)
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1146:16)
+(node:16848) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 13)
+(node:16848) UnhandledPromiseRejectionWarning: Error: connect ECONNREFUSED 127.0.0.1:3306
+    at __node_internal_captureLargerStackTrace (node:internal/errors:464:5)
+    at __node_internal_exceptionWithHostPort (node:internal/errors:642:12)
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1146:16)
+(node:16848) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 14)
+(node:16848) UnhandledPromiseRejectionWarning: Error: connect ECONNREFUSED 127.0.0.1:3306
+    at __node_internal_captureLargerStackTrace (node:internal/errors:464:5)
+    at __node_internal_exceptionWithHostPort (node:internal/errors:642:12)
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1146:16)
+(node:16848) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 15)
+> txaReportResources
+[      script:monitor] [txAdmin] Sending resources list to txAdmin.
+(node:16848) UnhandledPromiseRejectionWarning: Error: connect ECONNREFUSED 127.0.0.1:3306
+    at __node_internal_captureLargerStackTrace (node:internal/errors:464:5)
+    at __node_internal_exceptionWithHostPort (node:internal/errors:642:12)
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1146:16)
+(node:16848) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 16)
+[ citizen-server-main] -> Quitting: SIGHUP received
+[      script:qb-core] [qb-core:LOG] hoan2108 PLAYER SAVED!
+(node:16848) UnhandledPromiseRejectionWarning: Error: connect ECONNREFUSED 127.0.0.1:3306
+    at __node_internal_captureLargerStackTrace (node:internal/errors:464:5)
+    at __node_internal_exceptionWithHostPort (node:internal/errors:642:12)
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1146:16)
+(node:16848) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 17)
+(node:16848) UnhandledPromiseRejectionWarning: Error: connect ECONNREFUSED 127.0.0.1:3306
+    at __node_internal_captureLargerStackTrace (node:internal/errors:464:5)
+    at __node_internal_exceptionWithHostPort (node:internal/errors:642:12)
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1146:16)
+(node:16848) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 18)
+(node:16848) UnhandledPromiseRejectionWarning: Error: connect ECONNREFUSED 127.0.0.1:3306
+    at __node_internal_captureLargerStackTrace (node:internal/errors:464:5)
+    at __node_internal_exceptionWithHostPort (node:internal/errors:642:12)
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1146:16)
+(node:16848) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 19)

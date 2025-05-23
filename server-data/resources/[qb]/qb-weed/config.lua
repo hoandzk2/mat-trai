@@ -11,12 +11,12 @@ QBWeed.FoodUsage = 1     -- Amount of food to use per-tick
 
 QBWeed.StageLabels = {
     [1] = 'Germination',
-    [2] = 'Seedling',
-    [3] = 'Vegetative',
-    [4] = 'Budding',
-    [5] = 'Pre-flowering',
-    [6] = 'Flowering',
-    [7] = 'Ready for harvest',
+    [2] = 'Cây giống',
+    [3] = 'Thực vật',
+    [4] = 'Vừa mới nở',
+    [5] = 'Chuẩn bị thu hoạch',
+    [6] = 'Ra hoa',
+    [7] = 'Sẵn sàng thu hoạch',
 }
 
 QBWeed.DefaultProps = {
@@ -31,37 +31,37 @@ QBWeed.DefaultProps = {
 
 QBWeed.Plants = {
     ogkush = {
-        label = 'OGKush 2g',
+        label = 'OGKush ',
         item = 'weed_ogkush',
         stages = QBWeed.DefaultProps,
         highestStage = 7,
     },
     amnesia = {
-        label = 'Amnesia 2g',
+        label = 'Amnesia ',
         item = 'weed_amnesia',
         stages = QBWeed.DefaultProps,
         highestStage = 7,
     },
     skunk = {
-        label = 'Skunk 2g',
+        label = 'Skunk ',
         item = 'weed_skunk',
         stages = QBWeed.DefaultProps,
         highestStage = 7,
     },
     ak47 = {
-        label = 'AK47 2g',
+        label = 'AK47 ',
         item = 'weed_ak47',
         stages = QBWeed.DefaultProps,
         highestStage = 7,
     },
     purplehaze = {
-        label = 'Purple Haze 2g',
+        label = 'Purple Haze ',
         item = 'weed_purplehaze',
         stages = QBWeed.DefaultProps,
         highestStage = 7,
     },
     whitewidow = {
-        label = 'White Widow 2g',
+        label = 'White Widow ',
         item = 'weed_whitewidow',
         stages = QBWeed.DefaultProps,
         highestStage = 7,
