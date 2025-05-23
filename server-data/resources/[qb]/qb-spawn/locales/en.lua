@@ -1,6 +1,6 @@
 local Translations = {
     ui = {
-        last_location = "Chọn điểm spawn",
+        last_location = "Chọn điểm cuối",
         confirm = "Tiếp Tục",
         where_would_you_like_to_start = "Bạn muốn bắt đầu từ đâu?",
     }
