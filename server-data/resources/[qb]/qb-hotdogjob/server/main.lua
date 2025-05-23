@@ -7,7 +7,7 @@ QBCore.Functions.CreateCallback('qb-hotdogjob:server:HasMoney', function(source,
     local Player = QBCore.Functions.GetPlayer(source)
 
     if Player.PlayerData.money.bank >= Config.StandDeposit then
-        Player.Functions.RemoveMoney('bank', Config.StandDeposit, 'hot dog deposit')
+        Player.Functions.RemoveMoney('bank', Config.StandDeposit, 'Tiền gửi xúc xích')
         Bail[Player.PlayerData.citizenid] = true
         cb(true)
     else
@@ -20,7 +20,7 @@ QBCore.Functions.CreateCallback('qb-hotdogjob:server:BringBack', function(source
     local Player = QBCore.Functions.GetPlayer(source)
 
     if Bail[Player.PlayerData.citizenid] then
-        Player.Functions.AddMoney('bank', Config.StandDeposit, 'hot dog deposit')
+        Player.Functions.AddMoney('bank', Config.StandDeposit, 'Tiền gửi xúc xích')
         cb(true)
     else
         cb(false)
@@ -34,8 +34,8 @@ RegisterNetEvent('qb-hotdogjob:server:Sell', function(coords, amount, price)
     local pCoords = GetEntityCoords(GetPlayerPed(src))
     local Player = QBCore.Functions.GetPlayer(src)
     if not Player then return end
-    if #(pCoords - coords) > 4 then exports['qb-core']:ExploitBan(src, 'hotdog job') end
-    Player.Functions.AddMoney('cash', tonumber(amount * price), 'sold hotdog')
+    if #(pCoords - coords) > 4 then exports['qb-core']:ExploitBan(src, 'Công việc hotdog') end
+    Player.Functions.AddMoney('cash', tonumber(amount * price), 'Đã bán hotdog')
 end)
 
 RegisterNetEvent('qb-hotdogjob:server:UpdateReputation', function(quality)

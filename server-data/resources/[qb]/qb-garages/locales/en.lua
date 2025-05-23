@@ -1,34 +1,35 @@
 local Translations = {
     error = {
-        no_vehicles = 'There are no vehicles in this location!',
-        not_depot = 'Your vehicle is not in depot',
-        not_owned = 'This vehicle can\'t be stored',
-        not_correct_type = 'You can\'t store this type of vehicle here',
-        not_enough = 'Not enough money',
-        no_garage = 'None',
-        vehicle_occupied = 'You can\'t store this vehicle as it is not empty',
-        vehicle_not_tracked = 'Could not track vehicle',
-        no_spawn = 'Area too crowded'
+        no_vehicles = 'Không có phương tiện nào ở vị trí này!',
+        not_depot = 'Phương tiện của bạn không ở bãi giữ xe',
+        not_owned = 'Bạn không thể cất giữ phương tiện không thuộc sở hữu của mình',
+        not_correct_type = 'Bạn không thể cất loại phương tiện này ở đây',
+        not_enough = 'Không đủ tiền',
+        no_garage = 'Không có',
+        vehicle_occupied = 'Bạn không thể cất phương tiện này vì nó chưa trống',
+        vehicle_not_tracked = 'Không thể theo dõi phương tiện',
+        no_spawn = 'Khu vực quá đông'
     },
     success = {
-        vehicle_parked = 'Vehicle Stored',
-        vehicle_tracked = 'Vehicle Tracked',
+        vehicle_parked = 'Phương tiện đã được cất giữ',
+        vehicle_tracked = 'Phương tiện đã được theo dõi',
     },
     status = {
-        out = 'Out',
-        garaged = 'Garaged',
-        impound = 'Impounded By Police',
-        house = 'House',
+        out = 'Đang sử dụng',
+        garaged = 'Đã cất trong garage',
+        impound = 'Bị cảnh sát tạm giữ',
+        house = 'Nhà',
     },
     info = {
         car_e = 'E - Garage',
-        sea_e = 'E - Boathouse',
-        air_e = 'E - Hangar',
-        rig_e = 'E - Rig Lot',
-        depot_e = 'E - Depot',
-        house_garage = 'E - House Garage',
+        sea_e = 'E - Bến thuyền',
+        air_e = 'E - Nhà chứa máy bay',
+        rig_e = 'E - Bãi giữ xe giàn khoan',
+        depot_e = 'E - Bãi giữ xe',
+        house_garage = 'E - Garage tại nhà',
     }
 }
+
 
 Lang = Lang or Locale:new({
     phrases = Translations,

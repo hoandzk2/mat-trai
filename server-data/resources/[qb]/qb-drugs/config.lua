@@ -1,7 +1,7 @@
 Config = {
-    Debug = false,            -- true / false - Currently prints the vector3 and label of locations when requesting a delivery
+    Debug = false,            -- Đúng / Sai - Hiện đang in Vector3 và nhãn của các vị trí khi yêu cầu giao hàng
     NearbyDeliveries = false, -- true / false - Do you want deliveries to be within a certain amount of units?
-    DeliveryWithin = 2000,    -- int (Default 2000) - How many units do you want the delivery location to be within from the player when making a delivery request?
+    DeliveryWithin = 2000,    -- int (mặc định 2000) - Bạn muốn có bao nhiêu đơn vị vị trí giao hàng từ người chơi khi thực hiện yêu cầu giao hàng?
     Dealers = {
         -- Example:
         --['Sandy Dealer'] = {
@@ -31,7 +31,7 @@ Config = {
         --},
     },
     UseTarget = GetConvar('UseTarget', 'false') == 'true', -- Use qb-target interactions (don't change this, go to your server.cfg and add setr UseTarget true)
-    PoliceCallChance = 99,                                 --in percentage (if 99, theres the 99% to call the police)
+    PoliceCallChance = 99,                                 --tính theo tỷ lệ phần trăm (nếu 99, có 99% để gọi cảnh sát)
 
     -- Shop Config
     Products = {

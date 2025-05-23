@@ -24,8 +24,8 @@ Config.AvailableWeatherTypes = { -- DON'T TOUCH EXCEPT IF YOU KNOW WHAT YOU ARE 
     'RAIN',
     'THUNDER',
     'SNOW',
-    'Bão tuyết',
-    'Đèn tuyết',
+    'BLIZZARD',
+    'SNOWLIGHT',
     'XMAS',
     'HALLOWEEN',
 }

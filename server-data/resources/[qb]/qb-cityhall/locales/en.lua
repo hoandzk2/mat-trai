@@ -1,28 +1,28 @@
 local Translations = {
     error = {
-        not_in_range = 'Too far from the city hall'
+        not_in_range = 'Bạn đang ở xa Tòa thị chính'
     },
     success = {
-        recived_license = 'You have recived your %{value} for $50'
+        recived_license = 'Bạn đã nhận %{value} với giá $50'
     },
     info = {
-        new_job_app = 'Your application was sent to the boss of (%{job})',
-        bilp_text = 'City Services',
-        city_services_menu = '~g~E~w~ - City Services Menu',
-        id_card = 'ID Card',
-        driver_license = 'Drivers License',
-        weaponlicense = 'Firearms License',
-        new_job = 'Congratulations with your new job! (%{job})',
+        new_job_app = 'Đơn xin việc của bạn đã gửi tới Tổng giám đốc (%{job})',
+        bilp_text = 'Dịch vụ công',
+        city_services_menu = '~g~E~w~ - Danh sách dịch vụ công',
+        id_card = 'Thẻ công dân',
+        driver_license = 'Bằng lái xe',
+        weaponlicense = 'Bằng sử dụng vũ khí',
+        new_job = 'Chúc mừng bạn đã nhận được công việc mới! (%{job})'
     },
     email = {
         jobAppSender = "%{job}",
-        jobAppSub = "Thank you for applying to %(job).",
-        jobAppMsg = "Hello %{gender} %{lastname}<br /><br />%{job} has received your application.<br /><br />The boss is looking into your request and will reach out to you for an interview at their earliest convenience.<br /><br />Once again, thank you for your application.",
-        mr = 'Mr',
-        mrs = 'Mrs',
-        sender = 'Township',
-        subject = 'Driving lessons request',
-        message = 'Hello %{gender} %{lastname}<br /><br />We have just received a message that someone wants to take driving lessons<br />If you are willing to teach, please contact us:<br />Name: <strong>%{firstname} %{lastname}</strong><br />Phone Number: <strong>%{phone}</strong><br/><br/>Kind regards,<br />Township Los Santos'
+        jobAppSub = "Cảm ơn bạn đã ứng tuyển vào %(job).",
+        jobAppMsg = "Thân chào %{gender} %{lastname}<br /><br />%{job} đã nhận được đơn xin việc của bạn.<br /><br />Tổng giám đốc đang xem xét yêu cầu của bạn và sẽ liên hệ với bạn để phỏng vấn trong thời gian sớm nhất.<br /><br />Một lần nữa, cảm ơn bạn đã nộp đơn ứng tuyển.",
+        mr = 'Ông',
+        mrs = 'Bà',
+        sender = 'Toàn thị chính',
+        subject = 'Yêu cầu học lái xe',
+        message = 'Xin chào %{gender} %{lastname}<br /><br />Chúng tôi vừa nhận được một tin nhắn rằng ai đó muốn tham gia các bài học lái xe<br />Nếu bạn muốn tham gia dạy học khóa học này, hãy liên hệ:<br />Tên: <strong>%{firstname} %{lastname}</strong><br />Số điện thoại: <strong>%{phone}</strong><br/><br/>Thân,<br />Tòa thị chính Los Santos',
     }
 }
 
