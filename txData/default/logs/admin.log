@@ -31,3 +31,56 @@
 [23:26:02][Hoan_Tixi] logged in via in-game ui
 [23:27:36][Hoan_Tixi] logged in from 26.7.5.12 via password
 [23:28:34][Hoan_Tixi] executed "setgourp admin 2"
+[23:36:30][Hoan_Tixi] logged in via in-game ui
+[23:39:51][Hoan_Tixi] executed "refresh"
+[23:40:08][Hoan_Tixi] executed "refresh"
+[23:40:55][Hoan_Tixi] executed "refresh"
+[23:42:14][Hoan_Tixi] executed "refresh"
+[23:50:40][Hoan_Tixi] executed "refresh"
+[23:50:46][Hoan_Tixi] executed "ensure "lbvn""
+[23:50:51][Hoan_Tixi] executed "refresh"
+[23:59:13][Hoan_Tixi] executed "refresh"
+[23:59:18][Hoan_Tixi] executed "ensure "nissan""
+[00:09:50][Hoan_Tixi] logged in via in-game ui
+[00:14:52][Hoan_Tixi] logged in via in-game ui
+[00:17:27][Hoan_Tixi] logged in via in-game ui
+[00:37:57][Hoan_Tixi] executed "refresh"
+[00:38:12][Hoan_Tixi] executed "refresh"
+[00:38:41][Hoan_Tixi] executed "refresh"
+[00:38:57][Hoan_Tixi] executed "refresh"
+[00:40:04][Hoan_Tixi] executed "refresh"
+[00:40:44][Hoan_Tixi] executed "refresh"
+[00:41:04][Hoan_Tixi] executed "ensure "lbvn""
+[00:41:39][Hoan_Tixi] executed "refresh"
+[00:41:44][Hoan_Tixi] executed "ensure "rev_autentica24""
+
+================================================================
+======== txAdmin v6.0.2 atop fxserver 7290 Starting - 12:49:06, 23/5/2025
+================================================================
+
+================================================================
+======== txAdmin v6.0.2 atop fxserver 7290 Starting - 12:49:59, 23/5/2025
+================================================================
+[12:50:39][Hoan_Tixi] logged in from 127.0.0.1 via password
+[12:51:33][Hoan_Tixi] executed "RESTART SERVER"
+[13:03:23][Hoan_Tixi] logged in via in-game ui
+[13:05:13][Hoan_Tixi] logged in via in-game ui
+[13:06:20][Hoan_Tixi] logged in via in-game ui
+[13:20:43][Hoan_Tixi] executed "ensure "rev_autentica24""
+[14:10:46][Hoan_Tixi] executed "RESTART SERVER"
+[14:12:13][Hoan_Tixi] executed "RESTART SERVER"
+[14:13:10][Hoan_Tixi] logged in via in-game ui
+[14:17:17][Hoan_Tixi] logged in via in-game ui
+[14:17:44][Hoan_Tixi] executed "refresh"
+[14:17:52][Hoan_Tixi] executed "refresh"
+[14:18:24][Hoan_Tixi] executed "ensure "qb-spawn""
+[14:19:27][Hoan_Tixi] logged in via in-game ui
+[14:22:05][Hoan_Tixi] executed "RESTART SERVER"
+[14:23:02][Hoan_Tixi] logged in via in-game ui
+[14:25:34][Hoan_Tixi] executed "RESTART SERVER"
+[14:26:31][Hoan_Tixi] logged in via in-game ui
+[14:28:47][Hoan_Tixi] logged in via in-game ui
+[14:30:07][Hoan_Tixi] logged in via in-game ui
+[14:34:36][Hoan_Tixi] executed "RESTART SERVER"
+[14:35:33][Hoan_Tixi] logged in via in-game ui
+[14:40:17][Hoan_Tixi] executed "STOP SERVER"

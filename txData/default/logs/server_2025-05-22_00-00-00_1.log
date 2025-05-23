@@ -1,0 +1,36 @@
+
+================================================================
+======== txAdmin Starting - 21:44:25, 22/5/2025                 
+================================================================
+[21:50:54] txAdmin: Logger started
+[21:52:07] [nNx4i#1] MityTin: joined with identifiers [license:9109448fa2232a29669b399c8f2c226859153125; discord:856233107757989890; fivem:1543421; license2:9109448fa2232a29669b399c8f2c226859153125]
+[21:58:52] [nNx4i#1] MityTin: disconnected (Server->client connection timed out. Last seen 49572 msec ago.)
+
+================================================================
+======== txAdmin Starting - 22:18:41, 22/5/2025                 
+================================================================
+[22:18:55] txAdmin: Logger started
+[22:22:44] [jUbjy#1] MityTin: joined with identifiers [license:9109448fa2232a29669b399c8f2c226859153125; discord:856233107757989890; fivem:1543421; license2:9109448fa2232a29669b399c8f2c226859153125]
+[22:26:24] [jUbjy#1] MityTin: disconnected (Exiting)
+[22:27:38] [jUbjy#2] MityTin: joined with identifiers [license:9109448fa2232a29669b399c8f2c226859153125; discord:856233107757989890; fivem:1543421; license2:9109448fa2232a29669b399c8f2c226859153125]
+[22:30:54] [jUbjy#2] MityTin: disconnected (Exiting)
+[22:31:25] [jUbjy#3] MityTin: joined with identifiers [license:9109448fa2232a29669b399c8f2c226859153125; discord:856233107757989890; fivem:1543421; license2:9109448fa2232a29669b399c8f2c226859153125]
+[22:51:22] txAdmin: ((Broadcast) Hoan_Tixi): said "cut ra 1"
+[22:51:31] [jUbjy#3] MityTin: disconnected ([txAdmin] Server restarting (requested by Hoan_Tixi).)
+[22:51:41] txAdmin: Logger started
+[23:00:34] txAdmin: Logger started
+[23:01:08] [EhpdA#1] MityTin: joined with identifiers [steam:110000141879aec; license:9109448fa2232a29669b399c8f2c226859153125; discord:856233107757989890; fivem:1543421; license2:9109448fa2232a29669b399c8f2c226859153125]
+
+================================================================
+======== txAdmin Starting - 23:18:59, 22/5/2025                 
+================================================================
+[23:19:13] txAdmin: Logger started
+[23:25:44] [eDfMi#1] hoan2108: joined with identifiers [steam:11000013ff93d13; license:e69768fc5ff1a0004083f16d36044a39ee2728e9; xbl:2535426955445747; live:914798824294715; discord:1250781281063800885; fivem:16931317; license2:e69768fc5ff1a0004083f16d36044a39ee2728e9]
+[23:26:08] [eDfMi#1] hoan2108: disconnected (Game crashed: d3d11.dll!??$TID3D11DeviceContext_RSSetState_@$00@CContext@@SAXPEAUID3D11DeviceContext5@@PEAUID3D11RasterizerState@@@Z (0xe))
+[23:27:57] [eDfMi#2] MityTin: joined with identifiers [steam:110000141879aec; license:9109448fa2232a29669b399c8f2c226859153125; discord:856233107757989890; fivem:1543421; license2:9109448fa2232a29669b399c8f2c226859153125]
+[23:30:42] [eDfMi#2] MityTin: said "/dc"
+[23:31:35] [eDfMi#2] MityTin: said "/skin"
+[23:36:09] [eDfMi#3] hoan2108: joined with identifiers [steam:11000013ff93d13; license:e69768fc5ff1a0004083f16d36044a39ee2728e9; xbl:2535426955445747; live:914798824294715; discord:1250781281063800885; fivem:16931317; license2:e69768fc5ff1a0004083f16d36044a39ee2728e9]
+[23:36:38] [eDfMi#3] hoan2108: disconnected (Game crashed: d3d11.dll!??$TID3D11DeviceContext_RSSetState_@$00@CContext@@SAXPEAUID3D11DeviceContext5@@PEAUID3D11RasterizerState@@@Z (0x0))
+[23:53:16] [eDfMi#2] MityTin: said "/fixcar"
+[23:53:36] [eDfMi#2] MityTin: died from suicide (Falling)
